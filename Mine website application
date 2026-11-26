@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine application</title>
+</head>
+<body>
+    <h1>What can I bring in? Thats a good question.</h1>
+    <p>
+  One of the skills i can bring in is my ability to never give up. Which means I can keep trying even when things get tough.<br>
+  I can bring in also my experience and knowledge from previous projects.(Yes, im not professional yet, but i am eager to learn and improve.)<br>
+  Beside that, I can have experience in basics of html and css.(Still learning, but making progress.)<br>
+  I can create simple websites and applications.(With practice, I aim to improve my skills and create more complex projects.). But lets not go too far.<br>
+  I can create things like this.
+    </p>
+    <table border="1" class="skills">
+        <tr>
+            <td>Mine skills</td>
+            <td>Mine experience (mine opinions)</td>
+        </tr>
+        <tr>
+            <td>Qa</td>
+            <td>Mid-level experience in testing login functionality or other features.</td>
+        </tr>
+        <tr>
+            <td>Html</td>
+            <td>Mid-level experience in creating simple websites and applications.</td>
+        </tr>
+        <tr>
+            <td>Css</td>
+            <td>Early experience in styling websites and applications.</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>Beginner level experience in programming with C++.</td>
+        </tr>
+    </table> <br> <br>
+    <form action="submit_application.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="skills">Skills:</label><br>
+        <textarea id="skills" name="skills" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Submit Application">
+    </form>
+    <a href="https://github.com/PaulBorowiec/Portfolio">My portfolio</a>
+    <br> <br>
+    <p>And photo for the end of this page:</p>
+    <img src="https://plus.unsplash.com/premium_photo-1690571200236-0f9098fc6ca9?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="My image" width="300" height="200">
+    <footer>
+        <p>&copy; 2026 Mine application. All rights reserved.</p>
+        <p>Created by Paweł Borowiec</p>
+        <p>Contact: <a href="mailto:pawelborowiec348@gmail.com">Mine private email</a></p>
+    </footer>
+</body>
+</html>
